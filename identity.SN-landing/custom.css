@@ -1,0 +1,75 @@
+body {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+.layout {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #20cd93;
+  height: 64px;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.nav__link {
+  margin-left: 20px;
+  text-decoration: none;
+  transition: 0.4s;
+}
+
+.nav__link:hover{
+    text-decoration: underline;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.home-main {
+  height: 93%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.img-section {
+    width: 50%;
+    height: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-main h1 {
+    font-weight: 800;
+    text-align: center;
+    font-size: 4em;
+    color: #dffaf1;
+    
+}
+
+.home-main h4 {
+    font-weight: 300;
+    text-align: center;
+    transition: 0.3s;
+    
+}
+
+.home-main h4:hover {
+    transform: scale(1.1);
+    text-decoration: underline;
+    cursor: pointer;
+
+}
