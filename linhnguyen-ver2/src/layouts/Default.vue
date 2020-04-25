@@ -1,14 +1,14 @@
 <template>
   <div class="w3-mobile layout">
-    <header class="header">
+    <header class="header w3-theme-d2">
       <strong>
-        <g-link to="/">identity.SN</g-link>
+        <g-link to="/">Linh Nguyen</g-link>
       </strong>
       <nav class="nav">
-        <g-link class="nav__link" to="/">Home</g-link>
-        <g-link class="nav__link" to="/">Product</g-link>
-        <g-link class="nav__link" to="/About">About</g-link>
-        <g-link class="nav__link" to="/">Contact</g-link>
+        <g-link class="nav__link w3-hover-text-theme" to="/">Home</g-link>
+        <g-link class="nav__link w3-hover-text-theme" to="/">About</g-link>
+        <g-link class="nav__link w3-hover-text-theme" to="/About">Projects</g-link>
+        <g-link class="nav__link w3-hover-text-theme" to="/">Contact</g-link>
       </nav>
     </header>
     <slot/>

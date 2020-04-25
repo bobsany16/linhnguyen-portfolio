@@ -13,16 +13,29 @@ body {
 }
 
 .header {
-  display: flex;
-  justify-content: space-between;
   align-items: center;
-  background-color: #20cd93;
-  height: 64px;
-  position: sticky;
+  height: 70px;
+  position: fixed;
   top: 0;
   z-index: 1;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 2em;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  border-bottom: 0.5px solid black;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
+.header strong {
+  display: block;
+  float: left;
+  text-align: center;
+}
+
+.header nav {
+  display: block;
+  float: right;
+  text-align: center;
 }
 
 .nav__link {
@@ -31,45 +44,36 @@ body {
   transition: 0.4s;
 }
 
-.nav__link:hover{
-    text-decoration: underline;
-    transform: scale(1.1);
-    cursor: pointer;
+.nav__link:hover {
+  transform: scale(1.1);
+  cursor: pointer;
 }
 
 .home-main {
-  height: 93%;
+  height: 100%;
   width: 100%;
-  align-items: center;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
-
-}
-
-.img-section {
-    width: 50%;
-    height: 50%;
-    justify-content: center;
-    align-items: center;
+  padding-left: 2em;
+  text-align: center;
+ 
 }
 
 .home-main h1 {
-    font-weight: 800;
-    text-align: center;
-    font-size: 4em;
-    color: #dffaf1;
-    
+  font-weight: 900;
+  font-size: 8em;
+  margin-bottom: 0;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 2px white;
 }
 
-.home-main h4 {
-    font-weight: 300;
-    text-align: center;
-    transition: 0.3s;
-    
+.home-main h3 {
+  font-size: 4em;
+  font-weight: 900;
+  margin-bottom: 0;
 }
 
-.home-main h4:hover {
-    transform: scale(1.1);
-    text-decoration: underline;
-    cursor: pointer;
-
+.about-section {
+  height: 50%;
 }
