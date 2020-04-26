@@ -6,7 +6,8 @@
         <h2>My Orchids</h2>
       </div>
     </div>-->
-    <pdf src="./static/NGUYEN_RESUME.pdf" style="height: 100%"></pdf>
+    <pdf src="./NGUYEN_RESUME.pdf" style="height: 100%"></pdf>
+    
  
     
 </template>
