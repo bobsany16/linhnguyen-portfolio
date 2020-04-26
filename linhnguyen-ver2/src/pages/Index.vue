@@ -10,9 +10,11 @@
           <p>
             Software Developer, <b>LGBTQ+</b> Advocate, and Orchid Enthusiast
           </p>
+          
         </div>
-        
+        <ContactsIcon />
       </div>
+
       <HorizontalBar />
       <VerticalRightBar />
     </div>
@@ -25,6 +27,7 @@ import Footer from "../components/Footer";
 import VerticalRightBar from "../components/VerticalRightBar";
 import VerticalLeftBar from "../components/VerticalLeftBar";
 import HorizontalBar from "../components/HorizontalBar";
+import ContactsIcon from "../components/ContactsIcon";
 export default {
   metaInfo: {
     title: "Linh Nguyen",
@@ -35,6 +38,8 @@ export default {
     VerticalRightBar,
     VerticalLeftBar,
     HorizontalBar,
+    ContactsIcon,
+    
   },
 };
 </script>

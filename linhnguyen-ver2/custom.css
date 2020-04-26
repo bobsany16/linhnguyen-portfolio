@@ -70,6 +70,7 @@ body {
   padding-left: 2em;
   text-align: center;
   cursor: default;
+  align-items: center;
 }
 
 .home-main h1 {
@@ -94,15 +95,21 @@ body {
 .vert-nav {
   align-items: center;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   border-left: 0.5px solid black;
   transition: 0.4s ease;
-  padding-left: 2em;
-  padding-right: 2em;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  text-decoration: none;
 }
 
 .vert-nav2 {
   align-items: center;
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
   border-right: 0.5px solid black;
   padding-left: 2em;
   padding-right: 2em;
@@ -115,15 +122,32 @@ body {
   position: fixed;
   bottom: 0;
   z-index: 1;
-  padding-bottom: 2em;
-  padding-top: 1.25em;
-  padding-left: 47em;
+  padding-top: 0.5em;
+  text-decoration: none;
   border-top: 0.5px solid black;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   transition: 0.4s ease;
   align-items: center;
   display: flex;
+  flex-direction: column;
 }
+
+.contact-icons {
+  width: 30%;
+  display: flex;
+  padding-top: 1em;
+
+}
+.icon-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 50%;
+  transition: .4s ease;
+  text-shadow: 2px 2px 2px #69e5af;
+  
+}
+
 .main-wrapper {
   display: flex;
   flex-direction: row;
@@ -151,6 +175,7 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  width: 100%;
 }
 .about-main {
   display: flex;

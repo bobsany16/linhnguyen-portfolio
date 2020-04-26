@@ -6,7 +6,7 @@ import "../w3.css";
 import "../custom.css";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { config, library } from "@fortawesome/fontawesome-svg-core";
-import { faGithub, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faTwitter, faLinkedin, faDribbble } from "@fortawesome/free-brands-svg-icons";
 import {
   faArrowRight,
   faArrowLeft,
@@ -22,11 +22,14 @@ library.add(
   faArrowRight,
   faArrowDown,
   faArrowLeft,
-  faHome
+  faHome,
+  faLinkedin,
+  faDribbble,
 );
 
 export default function(Vue) {
   // Set default layout as a global component
   Vue.component("Layout", DefaultLayout);
   Vue.component("font-awesome-icon", FontAwesomeIcon);
+  Vue.component('font-awesome', FontAwesomeIcon)
 }
