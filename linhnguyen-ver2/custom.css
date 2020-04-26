@@ -26,7 +26,7 @@ body {
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
-.footer {
+/*.footer {
   width: 100%;
   height: 50px;
   position: fixed;
@@ -35,7 +35,7 @@ body {
   padding: 2em;
   border-top: 0.5px solid black;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-}
+}*/
 
 .header strong {
   display: block;
@@ -43,7 +43,8 @@ body {
   text-align: center;
 }
 
-.header nav, .nav {
+.header nav,
+.nav {
   display: block;
   float: right;
   text-align: center;
@@ -76,7 +77,7 @@ body {
   font-size: 8em;
   margin-bottom: 0;
   letter-spacing: 5px;
-  text-shadow: 2px 2px 2px #69E5AF;
+  text-shadow: 2px 2px 2px #69e5af;
 }
 
 .home-main h3 {
@@ -94,7 +95,7 @@ body {
   align-items: center;
   display: flex;
   border-left: 0.5px solid black;
-  transition: .4s ease;
+  transition: 0.4s ease;
   padding-left: 2em;
   padding-right: 2em;
 }
@@ -105,10 +106,24 @@ body {
   border-right: 0.5px solid black;
   padding-left: 2em;
   padding-right: 2em;
-  transition:  .4s ease;
-  
+  transition: 0.4s ease;
 }
 
+.horizontal-nav {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+  padding-bottom: 2em;
+  padding-top: 1.25em;
+  padding-left: 47em;
+  border-top: 0.5px solid black;
+  box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+  transition: 0.4s ease;
+  align-items: center;
+  display: flex;
+}
 .main-wrapper {
   display: flex;
   flex-direction: row;
@@ -119,10 +134,8 @@ body {
   padding-right: 2em;
   padding-left: 2em;
   transition: 0.4s;
-  text-shadow: 2px 2px 2px #69E5AF;
-  
+  text-shadow: 2px 2px 2px #69e5af;
 }
-
 
 .about-section {
   height: 100vh;
@@ -147,7 +160,3 @@ body {
 .about-main h2 {
   font-weight: 900;
 }
-
-
-
-
