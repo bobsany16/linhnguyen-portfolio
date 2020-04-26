@@ -1,2 +1,4 @@
-# identity.SN-LandingPage
- Product Landing Page for identity.SN app for Code:Buffalo Hackathon @Home
+# Portfolio - Version 2 by Linh Nguyen
+ 
+ Tech used: 
+ * Gridsome
