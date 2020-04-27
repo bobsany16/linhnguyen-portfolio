@@ -136,16 +136,14 @@ body {
   width: 30%;
   display: flex;
   padding-top: 1em;
-
 }
 .icon-nav {
   display: flex;
   flex-direction: row;
   justify-content: center;
   width: 50%;
-  transition: .4s ease;
+  transition: 0.4s ease;
   text-shadow: 2px 2px 2px #69e5af;
-  
 }
 
 .main-wrapper {
@@ -166,9 +164,10 @@ body {
   width: 100%;
   text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
-  padding-right: 6em;
+  text-justify: justify;
+  align-items: center;
 }
 .about-wrapper {
   height: 100%;
@@ -179,9 +178,32 @@ body {
 }
 .about-main {
   display: flex;
-  justify-content: center;
+  text-justify: justify;
+  flex-direction: column;
+  text-align: left;
 }
 
 .about-main h2 {
   font-weight: 900;
+  font-size: 7em;
+  margin-bottom: 0;
+  letter-spacing: 5px;
+  text-shadow: 2px 2px 2px #69e5af;
 }
+
+.about-main p {
+  font-size: 1.25em;
+}
+
+
+
+/*@media only screen and (max-width: 768px){
+  .about-section {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-wrapper {
+    height: 100vh;
+  }
+}*/
