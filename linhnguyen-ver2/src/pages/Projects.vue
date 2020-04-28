@@ -1,9 +1,67 @@
 <template>
   <div class="about-wrapper">
     <VerticalHomeBar />
-    <div class="w3-container w3-theme-d3 w3-mobile about-section">
+    <div class="w3-container w3-theme-d3 w3-mobile project-section">
       <div class="w3-container w3-mobile about-main">
-        <h2>My Projects</h2>
+        <h2>Projects</h2>
+      </div>
+      <div class="projects_items">
+        <div class="w3-container projects_item_scrollable">
+          <div class="projects_item_self">
+            <div class="w3-container project_box">
+              <h2 id="proj_box_title">Austin Thomas's Fitness App</h2>
+              <div class="hover_box w3-round-xlarge w3-hover-theme2">
+                <a
+                  href="https://github.com/bobsany16/fitness-club-application/tree/master"
+                  target="_blank"
+                  id="links_text2"
+                  ><p id="code_box">View Code</p></a
+                >
+              </div>
+              <div class="hover_box w3-round-xlarge w3-hover-theme2">
+                <a
+                  href="https://dribbble.com/shots/10067486-Fitness-Application"
+                  target="_blank"
+                  id="links_text2"
+                  ><p id="code_box">View Mockups</p></a
+                >
+              </div>
+            </div>
+            <div class="project_box">
+              <h2 id="proj_box_title">Tip Calculator</h2>
+              <div class="hover_box w3-round-xlarge w3-hover-theme2">
+                <a
+                  href="https://github.com/bobsany16/Tip-Calculator-Java-Swing"
+                  target="_blank"
+                  id="links_text2"
+                  ><p id="code_box">View Code</p></a
+                >
+              </div>
+            </div>
+            <div class="project_box">
+              <h2 id="proj_box_title">Fubuki Puzzle Solver</h2>
+              <div class="hover_box w3-round-xlarge w3-hover-theme2">
+                <a
+                  href="https://github.com/bobsany16/fubukiPuzzleSolver"
+                  target="_blank"
+                  id="links_text2"
+                  ><p id="code_box">View Code</p></a
+                >
+              </div>
+            </div>
+            <div class="project_box">
+              <h2 id="proj_box_title">Automated Tweet Delete Bot</h2>
+              <div class="hover_box w3-round-xlarge w3-hover-theme2">
+                <a
+                  href="https://github.com/bobsany16/Automated_Tweet_Delete"
+                  target="_blank"
+                  id="links_text2"
+                  ><p id="code_box">View Code</p></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
