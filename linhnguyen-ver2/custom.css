@@ -169,6 +169,11 @@ body {
   text-justify: justify;
   align-items: center;
 }
+
+.project-section {
+  height: 100%;
+  width: 100%;
+}
 .about-wrapper {
   height: 100%;
   display: flex;
@@ -181,6 +186,7 @@ body {
   text-justify: justify;
   flex-direction: column;
   text-align: left;
+  
 }
 
 .about-main h2 {
@@ -189,12 +195,77 @@ body {
   margin-bottom: 0;
   letter-spacing: 5px;
   text-shadow: 2px 2px 2px #69e5af;
+  border-bottom: 0.5px solid black;
 }
 
 .about-main p {
   font-size: 1.25em;
 }
 
+/*.projects {
+  height: 100vh;
+  background: url(https://images.unsplash.com/photo-1581215524789-83361d941827?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80);
+  background-size: cover;
+  justify-content: center;
+}*/
+
+/*.projects_section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}*/
+
+.projects_item_scrollable {
+  height: 80vh; 
+  overflow-y: scroll;
+}
+
+.projects_item_self {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.project_box {
+  border: 0.5px solid black;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  color: black;
+  width: 41em;
+  height: 41em;
+  text-align: center;
+  
+  
+  /*display: flex;
+  flex-direction: column;*/
+  cursor: default;
+}
+
+#proj_box_title {
+  font-size: 2.5rem;
+  font-weight: 900;
+}
+
+.hover_box {
+  border: 0.2px solid black;
+  margin: 1rem;
+  width: 10em;
+  transition: 0.5s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#hover_box:hover {
+  transform: scale(1.2);
+  animation-name: background-color;
+  animation-duration: 500ms;
+  animation-fill-mode: forwards;
+  color: black;
+  
+}
 
 
 /*@media only screen and (max-width: 768px){
