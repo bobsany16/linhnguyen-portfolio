@@ -1,23 +1,48 @@
 <template>
   <Layout>
-    <div class="w3-container w3-mobile w3-theme-d2 home-main">
-      <h3>Hello.</h3>
-      <h1>I'm Linh</h1>
-      <p>Software Developer, LGBTQ+ Advocate, and Orchid Enthusiast</p>
+    <div class="main-wrapper">
+      
+      <!--<VerticalLeftBar />-->
+      <div class="w3-container w3-mobile w3-theme-d3 home-main">
+        <h3>Hello.</h3>
+        <h1>I'm Linh</h1>
+
+        <div class="subtitle w3-mobile">
+          <p>
+            Software Developer, <b>LGBTQ+</b> Advocate, and Orchid Enthusiast
+          </p>
+          
+        </div>
+        <ContactsIcon />
+      </div>
+
+      <!--<HorizontalBar />
+      <VerticalRightBar />-->
     </div>
-    <AboutMe />    
   </Layout>
 </template>
 
-
 <script>
-import AboutMe from '../components/AboutMe';
+import AboutMe from "../components/AboutMe";
+import Footer from "../components/Footer";
+import VerticalRightBar from "../components/VerticalRightBar";
+import VerticalLeftBar from "../components/VerticalLeftBar";
+import HorizontalBar from "../components/HorizontalBar";
+import ContactsIcon from "../components/ContactsIcon";
+import NavBar from "../components/NavBar";
 export default {
   metaInfo: {
     title: "Linh Nguyen",
   },
   components: {
     AboutMe,
-  }
+    Footer,
+    VerticalRightBar,
+    VerticalLeftBar,
+    HorizontalBar,
+    ContactsIcon,
+    NavBar,
+    
+  },
 };
 </script>
