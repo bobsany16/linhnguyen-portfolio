@@ -1,6 +1,6 @@
 <template>
   <div class="w3-mobile layout">
-    <!--<NavBar />-->
+    <NavBar />
     <slot />
   </div>
 </template>

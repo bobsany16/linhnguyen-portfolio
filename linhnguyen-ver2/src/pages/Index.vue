@@ -1,7 +1,8 @@
 <template>
   <Layout>
     <div class="main-wrapper">
-      <VerticalLeftBar />
+      
+      <!--<VerticalLeftBar />-->
       <div class="w3-container w3-mobile w3-theme-d3 home-main">
         <h3>Hello.</h3>
         <h1>I'm Linh</h1>
@@ -15,8 +16,8 @@
         <ContactsIcon />
       </div>
 
-      <HorizontalBar />
-      <VerticalRightBar />
+      <!--<HorizontalBar />
+      <VerticalRightBar />-->
     </div>
   </Layout>
 </template>
@@ -28,6 +29,7 @@ import VerticalRightBar from "../components/VerticalRightBar";
 import VerticalLeftBar from "../components/VerticalLeftBar";
 import HorizontalBar from "../components/HorizontalBar";
 import ContactsIcon from "../components/ContactsIcon";
+import NavBar from "../components/NavBar";
 export default {
   metaInfo: {
     title: "Linh Nguyen",
@@ -39,6 +41,7 @@ export default {
     VerticalLeftBar,
     HorizontalBar,
     ContactsIcon,
+    NavBar,
     
   },
 };

@@ -6,8 +6,8 @@
     <nav class="nav">
       <g-link class="nav__link w3-hover-text-theme" to="/">Home</g-link>
       <g-link class="nav__link w3-hover-text-theme" to="/About">About</g-link>
-      <g-link class="nav__link w3-hover-text-theme" to="/">Projects</g-link>
-      <g-link class="nav__link w3-hover-text-theme" to="/">Contact</g-link>
+      <g-link class="nav__link w3-hover-text-theme" to="/Projects">Projects</g-link>
+      <g-link class="nav__link w3-hover-text-theme" to="/Resume">Contact</g-link>
     </nav>
   </header>
 </template>
