@@ -1,13 +1,14 @@
 <template>
-  <header class="header w3-theme-d3">
-    <strong>
-      <g-link to="/">Linh Nguyen</g-link>
-    </strong>
+  <header class="header">
+    <div>
+      <g-link class="nav__link2" to="/">LINH NGUYEN</g-link>
+    </div>
+
     <nav class="nav">
-      <g-link class="nav__link w3-hover-text-theme" to="/">Home</g-link>
-      <g-link class="nav__link w3-hover-text-theme" to="/About">About</g-link>
-      <g-link class="nav__link w3-hover-text-theme" to="/Projects">Projects</g-link>
-      <g-link class="nav__link w3-hover-text-theme" to="/Resume">Contact</g-link>
+      <g-link class="nav__link" to="/">HOME</g-link>
+      <a class="nav__link" href="#About">ABOUT</a>
+      <a class="nav__link" href="#Projects">PROJECTS</a>
+      <g-link class="nav__link" to="/Resume">RESUME</g-link>
     </nav>
   </header>
 </template>
