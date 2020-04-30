@@ -1,5 +1,5 @@
 <template>
-  <div class="projects_items">
+  <div id="Projects" class="projects_items">
     <div class="projects_item_scrollable">
       <div class="project_box w3-theme-l4">
         <h2 id="proj_box_title">

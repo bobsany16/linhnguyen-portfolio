@@ -19,7 +19,6 @@ import AboutMe from "../components/AboutMe";
 import Footer from "../components/Footer";
 import ContactsIcon from "../components/ContactsIcon";
 import MyProjects from "../components/MyProjects";
-
 export default {
   metaInfo: {
     title: "Linh Nguyen",

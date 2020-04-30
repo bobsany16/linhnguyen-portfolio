@@ -3,6 +3,7 @@
     <!--<VerticalHomeBar />-->
     <div class="w3-container w3-mobile about-section">
       <div class="w3-container w3-half w3-mobile about-main">
+        <h2><em>ABOUT ME</em></h2>
         <p>
           I am an aspiring software developer with experience in mobile & web
           applications. I think design and technology are like peanut butter and
