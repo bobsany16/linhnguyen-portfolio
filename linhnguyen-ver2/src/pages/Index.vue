@@ -21,7 +21,7 @@ import ContactsIcon from "../components/ContactsIcon";
 import MyProjects from "../components/MyProjects";
 export default {
   metaInfo: {
-    title: "Linh Nguyen",
+    title: "Welcome",
   },
   components: {
     AboutMe,
