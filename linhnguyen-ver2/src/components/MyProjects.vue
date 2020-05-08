@@ -51,14 +51,6 @@
               ><p id="code_box">View Code</p></a
             >
           </div>
-          <div class="hover_box w3-white w3-hover-theme2">
-            <a
-              href="https://github.com/mmakutonin/identity.SN"
-              target="_blank"
-              id="links_text2"
-              ><p id="code_box">View Demo</p></a
-            >
-          </div>
 
           <div class="hover_box w3-white w3-hover-theme2">
             <a
@@ -92,7 +84,7 @@
             >
           </div>
           <div class="hover_box w3-white w3-hover-theme2">
-            <a id="links_text2"><p id="code_box">App: Coming Soon</p></a>
+            <a href="https://anomaly-detection-app.herokuapp.com" id="links_text2"><p id="code_box">View App</p></a>
           </div>
         </div>
       </div>
@@ -101,13 +93,11 @@
           <em>#100DaysOfCode</em>
         </h2>
         <p class="proj_desc ">
-          I made a commitment to complete 100DaysOfCode challenge. I am learning so much. I also earned
-          freeCodeCamp's Responsive Web Design certification! 
+          I made a commitment to complete 100DaysOfCode challenge. I am learning
+          so much. I also earned freeCodeCamp's Responsive Web Design
+          certification!
         </p>
-        <img
-          class="w3-image w3-round img-proj"
-          src="/proud.png"
-        />
+        <img class="w3-image w3-round img-proj" src="/proud.png" />
         <div class="w3-container w3-middlebottom hoverbox-section">
           <div class="hover_box w3-white w3-hover-theme2">
             <a
