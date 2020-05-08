@@ -6,5 +6,7 @@
 
 module.exports = {
   siteName: 'Linh Nguyen',
-  plugins: []
+  plugins: [],
+  
+
 }
