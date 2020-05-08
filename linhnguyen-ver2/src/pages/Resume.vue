@@ -1,5 +1,5 @@
 <template>
-  <pdf src="./Nguyen_Resume.pdf"></pdf>
+  <pdf class="resume_section" src="./Nguyen_Resume.pdf"></pdf>
 </template>
 
 <script>
