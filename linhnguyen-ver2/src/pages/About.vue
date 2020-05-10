@@ -1,6 +1,5 @@
 <template>
   <div class="about-wrapper">
-    <!--<VerticalHomeBar />-->
     <div class="w3-container w3-theme-d3 w3-mobile about-section">
       <div class="w3-container w3-half w3-mobile about-main">
         <h2>About me</h2>

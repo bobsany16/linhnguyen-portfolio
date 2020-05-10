@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import VerticalHomeBar from "../components/VerticalHomeBar";
+
 import pdf from "vue-pdf";
 
 export default {
@@ -11,7 +11,6 @@ export default {
     title: "My Resumé",
   },
   components: {
-    VerticalHomeBar,
     pdf,
   },
 };
