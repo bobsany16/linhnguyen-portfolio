@@ -6,8 +6,8 @@
 
     <nav class="nav">
       <g-link class="nav__link" to="/">HOME</g-link>
-      <a class="nav__link" href="#About">ABOUT</a>
-      <a class="nav__link" href="#Projects">PROJECTS</a>
+      <g-link class="nav__link" to="/About">ABOUT</g-link>
+      <g-link class="nav__link" to="/Projects">PROJECTS</g-link>
       <g-link class="nav__link" to="/Resume">RESUME</g-link>
     </nav>
   </header>

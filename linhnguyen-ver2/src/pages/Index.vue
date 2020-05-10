@@ -9,8 +9,6 @@
       </div>
       <ContactsIcon />
     </div>
-    <AboutMe />
-    <MyProjects />
   </div>
 </template>
 
