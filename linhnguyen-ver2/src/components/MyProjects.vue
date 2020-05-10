@@ -73,7 +73,7 @@
           Machine Learning project for class. Jason Green and I assessed anomaly
           detection in 2016 US Presidential Election datasets.
         </p>
-        <img class="w3-image w3-round img-proj" src="/stats.png" />
+        <img class="w3-image w3-round img-proj" src="/Unknown.png" />
         <div class="w3-container hoverbox-section">
           <div class="hover_box w3-white w3-hover-theme2">
             <a
