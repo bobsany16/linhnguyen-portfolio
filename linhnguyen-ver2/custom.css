@@ -25,6 +25,16 @@ body {
   text-decoration: none;
 }
 
+.skills_icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skills:hover {
+  color: #3feee6;
+  transition: 0.5s ease;
+}
+
 /*.footer {
   width: 100%;
   height: 50px;
@@ -383,7 +393,7 @@ body {
   }
 
   .home-main h1 {
-    font-size: 8em;
+    font-size: 7.5em;
   }
 
   .home-main h3 {
@@ -391,7 +401,7 @@ body {
   }
 
   .about-section {
-    height: 170%;
+    height: 190%;
   }
 
   .about-main {
@@ -400,12 +410,17 @@ body {
 
   .about-main h2 {
     text-align: center;
+    margin-top: 1.4em;
   }
 
   .about-main p {
 
     font-size: 1.15em;
 
+  }
+
+  .skills_icon {
+    margin-bottom: 2em;
   }
 
   .projects_item_scrollable {
