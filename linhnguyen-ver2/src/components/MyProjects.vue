@@ -84,7 +84,7 @@
             >
           </div>
           <div class="hover_box w3-white w3-hover-theme2">
-            <a href="https://anomaly-detection-app.herokuapp.com" id="links_text2"><p id="code_box">View App</p></a>
+            <a href="https://anomaly-detection-app.herokuapp.com" target="_blank" id="links_text2"><p id="code_box">View App</p></a>
           </div>
         </div>
       </div>
@@ -101,7 +101,7 @@
         <div class="w3-container w3-middlebottom hoverbox-section">
           <div class="hover_box w3-white w3-hover-theme2">
             <a
-              href="https://github.com/bobsany16/100-days-of-code/blob/master/log.md"
+              href="https://github.com/bobsany16/100-Days-Of-Code2"
               target="_blank"
               id="links_text2"
               ><p id="code_box">View Log</p></a

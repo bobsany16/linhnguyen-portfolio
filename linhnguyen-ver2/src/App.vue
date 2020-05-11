@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <vue-page-transition name="fade-in-right">
+    <vue-page-transition name="fade">
       <router-view />
     </vue-page-transition>
   </Layout>
