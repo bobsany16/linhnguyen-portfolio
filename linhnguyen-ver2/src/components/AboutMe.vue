@@ -19,11 +19,12 @@
               >I go to bed knowing I tried my absolute best for the day</b
             ></em
           >.
-          <br /><br />
-          My skills:
+          <br /><br />My Skills:
+          
         </p>
         <div class="skills_icon">
-          <font-awesome :icon="['fab', 'python']" size="3x" class="skills"/>
+          
+          <font-awesome :icon="['fab', 'python']" size="3x" class="skills" />
           <font-awesome :icon="['fab', 'js-square']" size="3x" class="skills"/>
           <font-awesome :icon="['fab', 'react']" size="3x" class="skills" />
           <font-awesome :icon="['fab', 'html5']" size="3x" class="skills" />
