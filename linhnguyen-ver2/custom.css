@@ -25,6 +25,15 @@ body {
   text-decoration: none;
 }
 
+.skills_icon {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.skills {
+  color: #3feee6;
+}
+
 /*.footer {
   width: 100%;
   height: 50px;

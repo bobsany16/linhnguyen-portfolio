@@ -6,7 +6,7 @@ import "../w3.css";
 import "../custom.css";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { config, library } from "@fortawesome/fontawesome-svg-core";
-import { faGithub, faTwitter, faLinkedin, faDribbble } from "@fortawesome/free-brands-svg-icons";
+import { faGithub, faTwitter, faLinkedin, faDribbble, faPython, faReact, faJsSquare, faVuejs, faHtml5, faCss3, faJava} from "@fortawesome/free-brands-svg-icons";
 import {
   faArrowRight,
   faArrowLeft,
@@ -25,6 +25,13 @@ library.add(
   faHome,
   faLinkedin,
   faDribbble,
+  faPython,
+  faReact,
+  faJsSquare,
+  faVuejs,
+  faHtml5,
+  faCss3,
+  faJava
 );
 
 export default function(Vue) {
