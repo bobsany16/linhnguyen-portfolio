@@ -449,4 +449,8 @@ body {
     top: 100px !important;
 
   }
+
+  .hoverbox-section {
+    padding: 0 !important;
+  }
 }
