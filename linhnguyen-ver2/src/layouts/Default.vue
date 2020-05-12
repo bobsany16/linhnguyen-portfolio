@@ -1,6 +1,11 @@
 <template>
   <div class="w3-mobile layout">
-    <NavBar />
+    <div v-if="resume_page">
+      <NavBarResume />
+    </div>
+    <div v-else>
+      <NavBar />
+    </div>
     <slot />
   </div>
 </template>
@@ -16,10 +21,13 @@ query {
 <script>
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import NavBarResume from "../components/NavBarResume";
 export default {
   components: {
     NavBar,
     Footer,
+    NavBarResume,
   },
+  props: ["resume_page"],
 };
 </script>
