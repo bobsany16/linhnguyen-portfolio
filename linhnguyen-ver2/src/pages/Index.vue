@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="main-wrapper">
+    <div id="home" class="main-wrapper">
       <div class="w3-container w3-mobile home-main">
         <h3><em>HELLO.</em></h3>
         <h1><em>I'M LINH</em></h1>
