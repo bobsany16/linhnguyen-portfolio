@@ -2,8 +2,8 @@
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
 import DefaultLayout from "~/layouts/Default.vue";
-import "../w3.css";
-import "../custom.css";
+import "../styles/w3.css";
+import "../styles/custom.css";
 import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { config, library } from "@fortawesome/fontawesome-svg-core";
 import { faGithub, faTwitter, faLinkedin, faDribbble, faPython, faReact, faJsSquare, faVuejs, faHtml5, faCss3, faJava} from "@fortawesome/free-brands-svg-icons";

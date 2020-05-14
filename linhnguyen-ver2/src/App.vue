@@ -1,9 +1,7 @@
 <template>
-  <!--<Layout>-->
     <vue-page-transition name="fade">
       <router-view />
     </vue-page-transition>
-  <!--</Layout>-->
 </template>
 
 <static-query>  
