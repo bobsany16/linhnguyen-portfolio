@@ -24,13 +24,13 @@
         </p>
         <div class="skills_icon">
           
-          <font-awesome :icon="['fab', 'python']" size="3x" class="skills" />
-          <font-awesome :icon="['fab', 'js-square']" size="3x" class="skills"/>
-          <font-awesome :icon="['fab', 'react']" size="3x" class="skills" />
-          <font-awesome :icon="['fab', 'html5']" size="3x" class="skills" />
-          <font-awesome :icon="['fab', 'css3']" size="3x" class="skills" />
-          <font-awesome :icon="['fab', 'java']" size="3x" class="skills" />
-          <font-awesome :icon="['fab', 'vuejs']" size="3x" class="skills" />
+          <font-awesome :icon="['fab', 'python']" size="3x" class="skills w3-hover-text-theme2" />
+          <font-awesome :icon="['fab', 'js-square']" size="3x" class="skills w3-hover-text-theme2"/>
+          <font-awesome :icon="['fab', 'react']" size="3x" class="skills w3-hover-text-theme2" />
+          <font-awesome :icon="['fab', 'html5']" size="3x" class="skills w3-hover-text-theme2" />
+          <font-awesome :icon="['fab', 'css3']" size="3x" class="skills w3-hover-text-theme2" />
+          <font-awesome :icon="['fab', 'java']" size="3x" class="skills w3-hover-text-theme2" />
+          <font-awesome :icon="['fab', 'vuejs']" size="3x" class="skills w3-hover-text-theme2" />
         </div>
       </div>
     </div>
