@@ -20,7 +20,6 @@
 
 <script>
 import AboutMe from "../components/AboutMe";
-import Footer from "../components/Footer";
 import ContactsIcon from "../components/ContactsIcon";
 import MyProjects from "../components/MyProjects";
 export default {
@@ -29,7 +28,6 @@ export default {
   },
   components: {
     AboutMe,
-    Footer,
     ContactsIcon,
     MyProjects,
   },
