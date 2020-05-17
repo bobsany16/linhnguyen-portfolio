@@ -1,7 +1,7 @@
 <template>
-    <footer class="footer w3-theme-d3">
+    <footer class="footer">
       <strong>
-        <g-link to="/">Copyright 2020</g-link>
+        <g-link class="w3-white nav__link" to="/">Copyright 2020</g-link>
       </strong>
       <div class="nav">
         <g-link class="nav__link">Created by Linh Nguyen</g-link>
