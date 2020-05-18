@@ -1,5 +1,8 @@
 <template>
   <Layout>
+    <!-- <video autoplay muted loop id="myVid">
+        <source src="/Abstract.mp4" type="video/mp4" />
+      </video> -->
     <div id="home" class="main-wrapper">
       <div class="w3-container w3-mobile home-main">
         <h3><em>HELLO.</em></h3>
