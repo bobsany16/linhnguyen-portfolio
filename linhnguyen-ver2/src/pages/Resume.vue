@@ -1,11 +1,10 @@
 <template>
-<Layout :resume_page="true">
-  <pdf class="resume_section" src="./Nguyen_Resume.pdf"></pdf>
-</Layout>
+  <Layout :resume_page="true">
+    <pdf class="resume_section" src="./Nguyen_Resume.pdf"></pdf>
+  </Layout>
 </template>
 
 <script>
-
 import pdf from "vue-pdf";
 
 export default {
