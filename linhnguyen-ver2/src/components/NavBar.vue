@@ -17,7 +17,7 @@
         >PROJECTS</a
       >
       <g-link class="nav__link" to="/Resume">RESUME</g-link>
-      <g-link class="nav__link" to="/Orchids">ORCHIDS</g-link>
+      <!-- <g-link class="nav__link" to="/Orchids">ORCHIDS</g-link> -->
     </nav>
   </header>
 </template>

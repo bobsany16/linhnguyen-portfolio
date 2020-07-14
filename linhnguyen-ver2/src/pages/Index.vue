@@ -16,7 +16,7 @@ import MyProjects from "../components/MyProjects";
 import Introductions from "../components/Introductions";
 export default {
   metaInfo: {
-    title: "Welcome",
+    title: "Software Developer",
   },
   components: {
     AboutMe,
